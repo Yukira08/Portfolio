@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio Website</title>
+    <!-- fontawesome links -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- CSS only -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body class="bg-light">
+    <!-- Navbar start-->
+    <nav
+      class="navbar navbar-expand-lg bg-light shadow text-primary sticky-top"
+    >
+      <div class="container">
+        <a class="navbar-brand text-success" href="#projects">KHIN</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a
+                class="nav-link text-success active"
+                aria-current="page"
+                href="#home"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-success" href="#about">About Me</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-success" href="#projects">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-success" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Navbar end -->
+
+    <!-- Home Start -->
+    <section class="home" id="home">
+      <div class="container-lg">
+        <div class="row min-vh-100 align-items-center">
+          <div class="col-md-6 mt-5">
+            <div class="text-center">
+              <img
+                src="./images/my_pic1.jpg"
+                class="rounded-circle shadow-sm"
+                width="350px"
+                height="350px"
+              />
+            </div>
+          </div>
+          <div class="col-md-6 mt-5 order-md-first">
+            <div class="my-profile">
+              <p class="text-muted mb-1">Hello I'm</p>
+              <h1 class="text-success text-uppercase fs-1 fw-bold">
+                Khin Chan Myae Su
+              </h1>
+              <h2 class="fs-4 mt-3">Front-End Developer</h2>
+              <a
+                href="data/KhinChan_MyaeSu.pdf"
+                download
+                class="btn btn-success mt-3 px-3"
+                >Download CV</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Home End -->
+
+    <!-- About Me Start -->
+    <div class="about mx-5" id="about">
+      <div class="container-lg">
+        <div class="row justify-content-center">
+          <div class="col-lg-8">
+            <div class="section-title text-center mb-5">
+              <h2 class="fw-bold">About Me</h2>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-6">
+            <div class="about-text px-5">
+              <p class="mb-3 mt-3 fs-5">
+                I am currently a third-year engineering student studying at Toyo
+                University. I love design and have interest in creating
+                beautiful websites with my creativity and coding.
+              </p>
+            </div>
+            <div class="row">
+              <div class="col-lg-12 px-5 mt-3">
+                <a
+                  href="https://www.facebook.com/yukijonginnie.krittapak.5"
+                  class="m-3 text-success text-decoration-none"
+                >
+                  <i class="fa-brands fa-facebook fa-2x"></i>
+                </a>
+
+                <a
+                  href="https://www.linkedin.com/in/khinchanmyaesu/?original_referer="
+                  class="m-3 text-success text-decoration-none"
+                >
+                  <i class="fa-brands fa-linkedin fa-2x"></i>
+                </a>
+
+                <a
+                  href="https://github.com/Yukira08"
+                  class="m-3 text-success text-decoration-none"
+                >
+                  <i class="fa-brands fa-github fa-2x"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 mt-3">
+            <div class="skill mb-4">
+              <h3 class="fs-6">HTML,CSS,BootStrap</h3>
+              <div class="progress" style="height: 5px">
+                <div
+                  class="progress-bar bg-success"
+                  role="progressbar"
+                  style="width: 80%"
+                  aria-valuenow="25"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                ></div>
+              </div>
+            </div>
+            <div class="skill mb-4">
+              <h3 class="fs-6">JavaScript</h3>
+              <div class="progress" style="height: 5px">
+                <div
+                  class="progress-bar bg-success"
+                  role="progressbar"
+                  style="width: 60%"
+                  aria-valuenow="60"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                ></div>
+              </div>
+            </div>
+            <div class="skill mb-4">
+              <h3 class="fs-6">React</h3>
+              <div class="progress" style="height: 5px">
+                <div
+                  class="progress-bar bg-success"
+                  role="progressbar"
+                  style="width: 40%"
+                  aria-valuenow="40"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                ></div>
+              </div>
+            </div>
+            <div class="skill mb-4">
+              <h3 class="fs-6">Adobe XD</h3>
+              <div class="progress" style="height: 5px">
+                <div
+                  class="progress-bar bg-success"
+                  role="progressbar"
+                  style="width: 60%"
+                  aria-valuenow="60"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                ></div>
+              </div>
+            </div>
+            <div class="skill mb-4">
+              <h3 class="fs-6">Python</h3>
+              <div class="progress" style="height: 5px">
+                <div
+                  class="progress-bar bg-success"
+                  role="progressbar"
+                  style="width: 70%"
+                  aria-valuenow="70"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                ></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- About Me End -->
+
+    <!-- Projects Start -->
+    <div class="projects mx-5" id="projects">
+      <div class="container-lg mt-5">
+        <div class="row justify-content-center">
+          <div class="col-lg-8">
+            <div class="section-title text-center mb-5">
+              <h2 class="fw-bold">My Projects</h2>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-4 col-md-6 mb-3">
+            <div class="items">
+              <img
+                src="images/project1.png"
+                class="w-100 img-thumbnail shadow-sm"
+                style="height: 180px"
+              />
+              <h3 class="fs-5 my-2 text-center">INIAD Syllabus</h3>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 mb-3">
+            <div class="items">
+              <img
+                src="images/project2.png"
+                class="w-100 img-thumbnail shadow-sm"
+                style="height: 180px"
+              />
+              <h3 class="fs-5 my-2 text-center">INIAD Kapter</h3>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 mb-3">
+            <div class="items">
+              <img
+                src="images/project3.png"
+                class="w-100 img-thumbnail shadow-sm"
+                style="height: 180px"
+              />
+              <h3 class="fs-5 my-2 text-center">Tasty Food</h3>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 mb-3">
+            <div class="items">
+              <img
+                src="images/project4.png"
+                class="w-100 img-thumbnail shadow-sm"
+                style="height: 180px"
+              />
+              <h3 class="fs-5 my-2 text-center">Daffodils Exchange</h3>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 mb-3">
+            <div class="items">
+              <img
+                src="images/project5.png"
+                class="w-100 img-thumbnail shadow-sm"
+                style="height: 180px"
+              />
+              <h3 class="fs-5 my-2 text-center">Great Quotes</h3>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 mb-3">
+            <div class="items">
+              <img
+                src="images/project6.png"
+                class="w-100 img-thumbnail shadow-sm"
+                style="height: 180px"
+              />
+              <h3 class="fs-5 my-2 text-center">React Meals</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Project End -->
+
+    <!-- Contact Start -->
+    <div class="contact" id="contact">
+      <div class="container-lg mt-5">
+        <div class="row justify-content-center">
+          <div class="col-lg-8">
+            <div class="section-title text-center mb-5">
+              <h2 class="fw-bold">Contact</h2>
+            </div>
+          </div>
+        </div>
+
+        <div class="row d-flex justify-content-between">
+          <div class="col-md-6 mb-3">
+            <div class="email">
+              <i class="fas fa-envelope fa-2x"></i>
+              <span class="px-3 fs-5">khinchanmyaesu01@gmail.com</span>
+            </div>
+          </div>
+          <div class="col-md-6 mb-3">
+            <i class="fas fa-phone fa-2x"></i>
+            <span class="px-3 fs-5">+818087367213</span>
+          </div>
+        </div>
+      </div>
+      <div class="container-lg">
+        <div class="contact-form">
+          <form action="">
+            <div class="row">
+              <div class="col-lg-6 my-4">
+                <input
+                  type="text"
+                  placeholder="First Name"
+                  class="form-control form-control-lg fs-6 border-0"
+                />
+              </div>
+              <div class="col-lg-6 my-4">
+                <input
+                  type="text"
+                  placeholder="Last Name"
+                  class="form-control form-control-lg fs-6 border-0"
+                />
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-lg-12 mb-4">
+                <input
+                  type="text"
+                  placeholder="Your Email"
+                  class="form-control form-control-lg fs-6 border-0"
+                />
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-lg-12 mb-4">
+                <input
+                  type="text"
+                  placeholder="Subject"
+                  class="form-control form-control-lg fs-6 border-0"
+                />
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-lg-12 mb-4">
+                <textarea
+                  cols="30"
+                  rows="10"
+                  placeholder="Your Message"
+                  class="form-control form-control-lg fs-6 border-0"
+                ></textarea>
+              </div>
+            </div>
+            <div class="row justify-content-center">
+              <div class="col-lg-12 mb-4">
+                <div class="text-center">
+                  <button class="btn btn-success px-3">Send Inquiry</button>
+                </div>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    <!-- Contact End -->
+
+    <!-- Footer Start -->
+      <div class="footer border-top py-3">
+        <div class="container-lg ">
+          <div class="row">
+            <div class="col-lg-12">
+              <p class="m-0 text-success text-center">
+                <i class="fa-regular fa-copyright "></i>
+                2022 | All rights reserved
+              </p>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    <!-- Footer End -->
+    <!-- JavaScript Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
